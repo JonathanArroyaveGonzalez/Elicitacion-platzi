@@ -4,9 +4,9 @@
 git clone https://github.com/JonathanArroyaveGonzalez/Elicitacion-platzi.git
 ```
 
-> 🧑‍🚀 **Launch** ![page](https://jonathanarroyavegonzalez.github.io/Elicitacion-platzi/)
+> 🧑‍🚀 **Launch** [Github-page](https://jonathanarroyavegonzalez.github.io/Elicitacion-platzi/)
 
-![visitar-platzi](https://platzi.com)
+[visitar-platzi](https://platzi.com)
 
 ## 🚀 Elicitación Platzi
 
