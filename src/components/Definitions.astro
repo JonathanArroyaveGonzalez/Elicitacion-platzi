@@ -1,19 +1,19 @@
 <div class="container">
-    <h2>Definición de Requisitos</h2>
+    <h2 id="seccion2">📚 Definición de Requisitos</h2>
     
-    <h3>Requisitos Funcionales</h3>
+    <h3 >👍 Requisitos Funcionales</h3>
     <div class="describe">
         <p>Los requisitos funcionales describen las funciones o acciones específicas que debe realizar el sistema.</p>
     </div>
     
-    <h3> Requisitos No Funcionales</h3>
+    <h3>👎 Requisitos No Funcionales</h3>
     <div class="describe">
         <p>Los requisitos no funcionales describen las cualidades del sistema, como su rendimiento, seguridad, usabilidad, etc.</p>
     </div>
     
-    <h2>Lista de Requisitos</h2>
+    <h2 id="seccion3">Lista de Requisitos ✔️</h2>
     
-    <h3>Requisitos Funcionales</h3>
+    <h3>Requisitos Funcionales 👍</h3>
     <div class="describe">
     <ul>
         <li><strong>FUNC1:</strong> Funcionalidad de inicio de sesión de usuario.</li>
@@ -23,7 +23,7 @@
         <li><strong>FUNC5:</strong> Funcionalidad de registro de cursos completados.</li>
     </ul>
     </div>
-    <h3>Requisitos No Funcionales</h3>
+    <h3>Requisitos No Funcionales 👎</h3>
     <div class="describe">
     <ul>
         <li><strong>NOFUNC1:</strong> Tiempo de carga de la página no debe exceder los 3 segundos.</li>
@@ -51,7 +51,7 @@
 	.describe{
 		list-style: none;
 		display: flex;
-		padding: 1px;
+		padding: 10px;
 		background-color: #23262d;
 		background-image: none;
 		background-size: 400%;
@@ -59,7 +59,12 @@
 		background-position: 100%;
 		transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+        transition: transform 0.3s ease-in-out; /* Transición suave para el efecto de ampliación */
 	}
+
+    .describe:hover {
+    transform: scale(1.05); /* Aumenta el tamaño de la imagen en un 5% */
+}
 	
 	
 </style>

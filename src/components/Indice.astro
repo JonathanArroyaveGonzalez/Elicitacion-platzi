@@ -1,0 +1,60 @@
+<div class="index-list">
+    <h2>📒 Indice</h2>
+<ul>
+    <li> 🔵<a href="#seccion1">  Descripción</a></li>
+    <li> 🔵<a href="#seccion2">  Definiciones</a></li>
+    <li>🔵 <a href="#seccion3"> Lista </a></li>
+</ul>
+</div>
+<style>
+
+    h2{
+        color: #fff;
+    }
+    
+   .index-list {
+  position: fixed;
+  left: 2%;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333; /* Color de fondo oscuro */
+  padding: 30px;
+  z-index: 1000; /* Para asegurarse de que esté por encima del contenido */
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.index-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.index-list li {
+  margin-bottom: 10px;
+}
+li{
+    transition: transform 0.3s ease-in-out; /* Transición suave para el efecto de ampliación */
+}
+li:hover{
+    transform: scale(1.05); /* Aumenta el tamaño de la imagen en un 5% */
+}
+
+.index-list a {
+  color: #fff; /* Color del texto blanco */
+  text-decoration: none;
+}
+
+
+.content {
+  margin-left: 200px; /* Espacio para la lista de índice */
+  padding: 20px;
+}
+
+/* Estilos para las secciones */
+.content > div {
+  margin-bottom: 50px; /* Espacio entre las secciones */
+  color: #fff; /* Color del texto blanco */
+}
+</style>
