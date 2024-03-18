@@ -1,133 +1,161 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
-import Table from '../components/Table.astro';
-import Definitions from'../components/Definitions.astro';
-import Logo from '../components/Logo.astro';
-import Carrusel from '../components/Carrusel.astro';
-import Indice from '../components/Indice.astro';
-import ChangeControl from '../components/ChangeControl.astro';
-import Context from "../components/Context.astro"
-import TableStake from "../components/TableStake.astro"
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import Table from "../components/Table.astro";
+import Definitions from "../components/Definitions.astro";
+import Logo from "../components/Logo.astro";
+import Carrusel from "../components/Carrusel.astro";
+import Indice from "../components/Indice.astro";
+import ChangeControl from "../components/ChangeControl.astro";
+import Context from "../components/Context.astro";
+import TableStake from "../components/TableStake.astro";
 ---
 
-
 <Layout title="Platzi Elicitación">
-	<Indice></Indice>
-	<main>
-		
-		
-		<Logo></Logo>
-		<h1 id="seccion1" >Elicitación  <span class="text-gradient"> Platzi</span></h1>
-		<p class="instructions">
-			Este repositorio está destinado a la plataforma Platzi con el objetivo de conocer los requisitos 
-			<strong>Funcionales</strong> y <strong>No funcionales</strong> en base a los contenidos de la
-			asignatura
-			<code>Ingenieria de software II</code>
-		</p>
+  <Indice />
+  <main>
+    <Logo />
+    <h1 id="seccion1">
+      Elicitación <span class="text-gradient"> Platzi</span>
+    </h1>
+    <p class="instructions">
+      Este repositorio está destinado a la plataforma Platzi con el objetivo de
+      conocer los requisitos
+      <strong>Funcionales</strong> y <strong>No funcionales</strong> en base a los
+      contenidos de la asignatura
+      <code>Ingenieria de software II</code>
+    </p>
 
-		<img src="https://repository-images.githubusercontent.com/398540078/b15797e9-6eb7-469c-ae5f-466a5b0c24c9" alt="Introduccion Platzi">
-		<!-- <Carrusel></Carrusel> -->
-		 
-		<p>En la era digital actual, el aprendizaje en línea se ha convertido en una parte esencial de la educación y el desarrollo profesional. En este contexto, Platzi emerge como una plataforma líder que ha revolucionado la forma en que las personas acceden al conocimiento y adquieren nuevas habilidades. 
-			 Platzi, fundada en 2014, es una plataforma de aprendizaje en línea que ha ganado reconocimiento y popularidad mundial gracias a su enfoque único y efectivo para la educación en línea.
-			<br><br>
-			Platzi tiene como objetivo principal proporcionar un acceso accesible y efectivo a una amplia gama de cursos y recursos de aprendizaje en línea. Desde tecnología y desarrollo de software hasta negocios y diseño, la plataforma ofrece una diversidad de contenidos de alta calidad que abarcan diversas disciplinas. Estos cursos no solo están diseñados para principiantes, sino que también ofrecen niveles intermedios y avanzados, lo que permite a los usuarios encontrar contenido adecuado a su nivel de experiencia y necesidades de desarrollo.
-			<br><br>
-			Desde su inicio, Platzi ha experimentado un crecimiento constante en su base de usuarios. Actualmente, la plataforma cuenta con una comunidad activa de 3 millones de estudiantes recurrentes en más de 140 países, quienes confían en Platzi como su fuente principal de aprendizaje en línea. Esta cifra refleja el impacto positivo que Platzi ha tenido en la educación y el desarrollo profesional de personas en todo el mundo.
-			<br><br>
-			A lo largo de este documento, exploraremos en detalle los aspectos clave de la aplicación Platzi, incluyendo sus características distintivas, su modelo de negocio y los desafíos y oportunidades que enfrenta en el competitivo mundo del aprendizaje en línea.</p>
+    <img
+      src="https://repository-images.githubusercontent.com/398540078/b15797e9-6eb7-469c-ae5f-466a5b0c24c9"
+      alt="Introduccion Platzi"
+    />
+    <!-- <Carrusel></Carrusel> -->
 
-			<TableStake></TableStake>
-        <Context>  </Context>
-			<Definitions></Definitions>
-			<Table></Table>
-			<ChangeControl></ChangeControl>
+    <p>
+      En la era digital actual, el aprendizaje en línea se ha convertido en una
+      parte esencial de la educación y el desarrollo profesional. En este
+      contexto, Platzi emerge como una plataforma líder que ha revolucionado la
+      forma en que las personas acceden al conocimiento y adquieren nuevas
+      habilidades. Platzi, fundada en 2014, es una plataforma de aprendizaje en
+      línea que ha ganado reconocimiento y popularidad mundial gracias a su
+      enfoque único y efectivo para la educación en línea.
+      <br /><br />
+      Platzi tiene como objetivo principal proporcionar un acceso accesible y efectivo
+      a una amplia gama de cursos y recursos de aprendizaje en línea. Desde tecnología
+      y desarrollo de software hasta negocios y diseño, la plataforma ofrece una
+      diversidad de contenidos de alta calidad que abarcan diversas disciplinas.
+      Estos cursos no solo están diseñados para principiantes, sino que también ofrecen
+      niveles intermedios y avanzados, lo que permite a los usuarios encontrar contenido
+      adecuado a su nivel de experiencia y necesidades de desarrollo.
+      <br /><br />
+      Desde su inicio, Platzi ha experimentado un crecimiento constante en su base
+      de usuarios. Actualmente, la plataforma cuenta con una comunidad activa de
+      3 millones de estudiantes recurrentes en más de 140 países, quienes confían
+      en Platzi como su fuente principal de aprendizaje en línea. Esta cifra refleja
+      el impacto positivo que Platzi ha tenido en la educación y el desarrollo profesional
+      de personas en todo el mundo.
+      <br /><br />
+      A lo largo de este documento, exploraremos en detalle los aspectos clave de
+      la aplicación Platzi, incluyendo sus características distintivas, su modelo
+      de negocio y los desafíos y oportunidades que enfrenta en el competitivo mundo
+      del aprendizaje en línea.
+    </p>
 
-		<ul role="list" class="link-card-grid" >
-			<Card
-				href="https://github.com/JonathanArroyaveGonzalez/Elicitacion-platzi"
-				title="Repositorio 🚀"
-				body="Repositorio de codigo abierto en Github."
-			/>
-			<Card
-				href="https://docs.astro.build/"
-				title="Docs Astro 📙"
-				body="Documentación del framework Astro utilizado."
-			/>
-			
-		</ul>
-		
-		<!--  <Carrusel></Carrusel> -->
-	</main>
+    <TableStake />
+    <Context />
+    <Definitions />
+    <Table />
+    <ChangeControl />
+
+    <ul role="list" class="link-card-grid">
+      <Card
+        href="https://github.com/JonathanArroyaveGonzalez/Elicitacion-platzi"
+        title="Repositorio 🚀"
+        body="Repositorio de codigo abierto en Github."
+      />
+      <Card
+        href="https://docs.astro.build/"
+        title="Docs Astro 📙"
+        body="Documentación del framework Astro utilizado."
+      />
+    </ul>
+
+    <!--  <Carrusel></Carrusel> -->
+  </main>
 </Layout>
 
-
 <style>
-	main {
-		margin: auto;
-		padding: 1rem;
-		width: 800px;
-		max-width: calc(100% - 2rem);
-		color: white;
-		font-size: 20px;
-		line-height: 1.6;
-	}
+  main {
+    margin: auto;
+    padding: 1rem;
+    width: 800px;
+    max-width: calc(100% - 2rem);
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+  }
 
-	img{
-		width: 100%;
-		height: 360px;
-		border-radius: 10px; /* Bordes redondeados */
-    	transition: transform 0.3s ease-in-out; /* Transición suave para el efecto de ampliación */
-	}
-	img:hover {
+  img {
+    width: 100%;
+    height: 360px;
+    border-radius: 10px; /* Bordes redondeados */
+    transition: transform 0.3s ease-in-out; /* Transición suave para el efecto de ampliación */
+  }
+  img:hover {
     transform: scale(1.05); /* Aumenta el tamaño de la imagen en un 5% */
-}
-	.astro-a {
-		position: absolute;
-		top: -32px;
-		left: 50%;
-		transform: translatex(-50%);
-		width: 220px;
-		height: auto;
-		z-index: -1;
-	}
-	h1 {
-		font-size: 4rem;
-		font-weight: 700;
-		line-height: 1;
-		text-align: center;
-		margin-bottom: 1em;
-	}
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-	.instructions {
-		margin-bottom: 2rem;
-		border: 1px solid rgba(var(--accent-light), 25%);
-		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
-		padding: 1.5rem;
-		border-radius: 8px;
-	}
-	.instructions code {
-		font-size: 0.8em;
-		font-weight: bold;
-		background: rgba(var(--accent-light), 12%);
-		color: rgb(var(--accent-light));
-		border-radius: 4px;
-		padding: 0.3em 0.4em;
-	}
-	.instructions strong {
-		color: rgb(var(--accent-light));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 2rem;
-		padding: 0;
-	}
+  }
+  .astro-a {
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 220px;
+    height: auto;
+    z-index: -1;
+  }
+  h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  p {
+    text-align: justify;
+  }
+  .text-gradient {
+    background-image: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400%;
+    background-position: 0%;
+  }
+  .instructions {
+    margin-bottom: 2rem;
+    border: 1px solid rgba(var(--accent-light), 25%);
+    background: linear-gradient(
+      rgba(var(--accent-dark), 66%),
+      rgba(var(--accent-dark), 33%)
+    );
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+  .instructions code {
+    font-size: 0.8em;
+    font-weight: bold;
+    background: rgba(var(--accent-light), 12%);
+    color: rgb(var(--accent-light));
+    border-radius: 4px;
+    padding: 0.3em 0.4em;
+  }
+  .instructions strong {
+    color: rgb(var(--accent-light));
+  }
+  .link-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    gap: 2rem;
+    padding: 0;
+  }
 </style>

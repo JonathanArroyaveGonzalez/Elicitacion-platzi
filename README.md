@@ -15,6 +15,11 @@ La plataforma de aprendizaje Platzi es una plataforma en línea que ofrece curso
 [![Launch: Elicitación-Platzi](https://img.shields.io/badge/Platzi-%234DC730.svg?style=for-the-badge&logo=Platzi&logoColor=white)](https://jonathanarroyavegonzalez.github.io/Elicitacion-platzi/)
 
 #
+<a href='https://github.com/Danielgiraldo2010' target="_blank"><img alt='GitHub' src='https://img.shields.io/badge/Danielgiraldo2010-100000?style=for-the-badge&logo=GitHub&logoColor=F0FAF6&labelColor=17B0AB&color=A7EDE9'/></a>
+<a href='https://github.com/juandiramu' target="_blank"><img alt='GitHub' src='https://img.shields.io/badge/juandiramu-100000?style=for-the-badge&logo=GitHub&logoColor=F0FAF6&labelColor=18E711&color=89EAAD'/></a>
+<a href='https://github.com/miguelfsociety' target="_blank"><img alt='GitHub' src='https://img.shields.io/badge/miguelfsociety-100000?style=for-the-badge&logo=GitHub&logoColor=F0FAF6&labelColor=EDE611&color=E4F484'/></a>
+<a href='https://github.com/Zurgar0214' target="_blank"><img alt='GitHub' src='https://img.shields.io/badge/Zurgar0214-100000?style=for-the-badge&logo=GitHub&logoColor=F0FAF6&labelColor=F45B0F&color=E4F484'/></a>
+<a href='https://github.com/JonathanArroyaveGonzalez' target="_blank"><img alt='GitHub' src='https://img.shields.io/badge/JonathanArroyave-100000?style=for-the-badge&logo=GitHub&logoColor=F0FAF6&labelColor=661AEA&color=D1B9E0'/></a>
 
 ## 🧞 Integrantes CodeSnakes🐍
 |          Nombre           |     Rol     |         Correo electrónico           |
