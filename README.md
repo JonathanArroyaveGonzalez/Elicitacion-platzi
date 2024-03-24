@@ -1,4 +1,4 @@
-# Elicitación de requisitos: Platzi ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
+# Elicitación de requisitos: Platzi ![Badge en Desarollo](https://img.shields.io/badge/STATUS-COMPLETADO-04DB04)
 
 ```sh
 git clone https://github.com/JonathanArroyaveGonzalez/Elicitacion-platzi.git
